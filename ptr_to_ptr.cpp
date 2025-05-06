@@ -5,7 +5,7 @@ int main () {
     int a = 10 ;
     int* ptr = &a;
 
-    int ** parptr = &ptr; //parptr is parent pointer 
+    int ** parptr = &ptr; 
 
     cout << &ptr << endl;
     cout << &parptr << endl;
