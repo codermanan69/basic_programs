@@ -21,7 +21,7 @@ public:
     complex operator + (complex c) {
         complex temp;
         temp.real = real + c.real;
-        temp.imag = imag + c.imag;  // ✅ Fixed here
+        temp.imag = imag + c.imag;  
         return temp;
     }
 };
@@ -33,7 +33,7 @@ int main() {
     complex c4;
 
     c4 = c1 + c2;
-    c4.print();  // ✅ To show the result
+    c4.print();  
 
     return 0;
 }
